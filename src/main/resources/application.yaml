@@ -1,0 +1,13 @@
+server:
+  port: 6789
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:2222/OT-MD?createDatabaseIfNotExist=true
+    username: root
+    password: password
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: false
+    open-in-view: false
+
